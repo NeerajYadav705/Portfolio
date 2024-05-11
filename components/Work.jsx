@@ -13,6 +13,14 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 const projectData = [
   {
+    image: "/work/gemini.png",
+    category: "React js",
+    name: "Gemini",
+    description: "Google Gemini AI ",
+    link: "https://gemini-ochre-chi.vercel.app/",
+    github: "https://github.com/NeerajYadav705/Gemini",
+  },
+  {
     image: "/work/crypto.png",
     category: "React js",
     name: "Crypto_X",

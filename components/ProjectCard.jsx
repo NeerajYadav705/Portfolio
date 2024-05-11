@@ -9,10 +9,10 @@ const ProjectCard = ({ project }) => {
     <Card className="group overflow-hidden relative">
       <CardHeader className="p-0">
         {/* image */}
-        <div className="relative w-full h-[300px] flex items-center justify-center bg-tertiary dark:bg-secondary/40">
+        <div className="relative w-full h-[300px] flex items-center justify-center bg-gray-100 dark:bg-secondary/40">
           <Image
-            className="absolute bottom-0 shadow-2xl 
-            rounded-t-xl"
+            className="absolute bottom-5 shadow-2xl 
+            rounded-t-xl "
             src={project.image}
             width={447}
             height={250}

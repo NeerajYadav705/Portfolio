@@ -5,6 +5,14 @@ import ProjectCard from "@/components/ProjectCard";
 
 const projectData = [
   {
+    image: "/work/gemini.png",
+    category: "react js",
+    name: "Gemini",
+    description: "Google Gemini AI ",
+    link: "https://gemini-ochre-chi.vercel.app/",
+    github: "https://github.com/NeerajYadav705/Gemini",
+  },
+  {
     image: "/work/crypto.png",
     category: "react js",
     name: "Crypto_X",

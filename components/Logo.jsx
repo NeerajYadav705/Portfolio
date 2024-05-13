@@ -1,13 +1,15 @@
+import Image from "next/image";
 import Link from "next/link";
 
 
 const Logo = () => {
+  const logoName = "エン"
   
   return (
     <Link href="/">
-      {/* <Image src="/hero/logo.png" width={64} height={64} priority alt="logo" /> */}
+      {/* <Image src="/hero/n.png" width={50} height={50} priority alt="logo" className="" /> */}
 
-      <h1 className="dark:text-primary text-3xl">Neeraj</h1>
+      <h1 className="dark:text-primary text-2xl font-extrabold">{logoName}</h1>
     </Link>
   );
 };

@@ -5,6 +5,14 @@ import ProjectCard from "@/components/ProjectCard";
 
 const projectData = [
   {
+    image: "/work/wallpaper.png",
+    category: "react js",
+    name: "Wallpaper",
+    description: "Download Wallpapers",
+    link: "https://wallpaper-zeta.vercel.app/",
+    github: "https://github.com/NeerajYadav705/wallpaper",
+  },
+  {
     image: "/work/gemini.png",
     category: "react js",
     name: "Gemini",

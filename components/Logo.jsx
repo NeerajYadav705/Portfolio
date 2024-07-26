@@ -9,7 +9,7 @@ const Logo = () => {
     <Link href="/">
       {/* <Image src="/hero/n.png" width={50} height={50} priority alt="logo" className="" /> */}
 
-      <h1 className="dark:text-primary text-2xl font-extrabold">{logoName}</h1>
+      <h1 className="dark:text-primary text-3xl font-extrabold">{logoName}</h1>
     </Link>
   );
 };

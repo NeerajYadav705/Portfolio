@@ -13,6 +13,14 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 const projectData = [
   {
+    image: "/work/wallpaper.png",
+    category: "React js",
+    name: "Wallpaper",
+    description: "Download Wallpapers",
+    link: "https://wallpaper-zeta.vercel.app/",
+    github: "https://github.com/NeerajYadav705/wallpaper",
+  },
+  {
     image: "/work/gemini.png",
     category: "React js",
     name: "Gemini",

@@ -16,7 +16,7 @@ const Hero = () => {
 
   const handleDownload = () => {
     // Replace 'file-url' with the actual URL of the file you want to download
-    const fileUrl = '/contact/Neeraj Yadav.pdf';
+    const fileUrl = '/contact/Neeraj_Yadav.pdf';
     const link = document.createElement('a');
     link.href = fileUrl;
     link.setAttribute('download', 'Neeraj Yadav.pdf');

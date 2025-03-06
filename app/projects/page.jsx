@@ -5,6 +5,14 @@ import ProjectCard from "@/components/ProjectCard";
 
 const projectData = [
   {
+    image: "/work/ai.png",
+    category: "React js",
+    name: "AI Mock Interview",
+    description: "Ai Mock Interview",
+    link: "https://ai-mock-interview-orpin.vercel.app/",
+    github: "https://github.com/NeerajYadav705/ai-mock-interview",
+  },
+  {
     image: "/work/wallpaper.png",
     category: "react js",
     name: "Wallpaper",
